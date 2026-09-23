@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Arduino Calculator Wiring Diagram</title>
+  <desc id="desc">Logical wiring diagram connecting a 4 by 4 keypad and a 16 by 2 I2C LCD to an Arduino Uno.</desc>
+  <rect width="1200" height="560" fill="#0d1117"/>
+  <text x="600" y="48" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="30" font-weight="700">Arduino Calculator — Wiring Overview</text>
+
+  <rect x="80" y="120" width="280" height="330" rx="18" fill="#161b22" stroke="#58a6ff" stroke-width="3"/>
+  <text x="220" y="165" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="26" font-weight="700">4×4 Keypad</text>
+
+  <g font-family="Arial, sans-serif" font-size="22" text-anchor="middle">
+    <g fill="#21262d" stroke="#8b949e">
+      <rect x="115" y="195" width="48" height="48" rx="7"/><rect x="175" y="195" width="48" height="48" rx="7"/><rect x="235" y="195" width="48" height="48" rx="7"/><rect x="295" y="195" width="48" height="48" rx="7"/>
+      <rect x="115" y="255" width="48" height="48" rx="7"/><rect x="175" y="255" width="48" height="48" rx="7"/><rect x="235" y="255" width="48" height="48" rx="7"/><rect x="295" y="255" width="48" height="48" rx="7"/>
+      <rect x="115" y="315" width="48" height="48" rx="7"/><rect x="175" y="315" width="48" height="48" rx="7"/><rect x="235" y="315" width="48" height="48" rx="7"/><rect x="295" y="315" width="48" height="48" rx="7"/>
+      <rect x="115" y="375" width="48" height="48" rx="7"/><rect x="175" y="375" width="48" height="48" rx="7"/><rect x="235" y="375" width="48" height="48" rx="7"/><rect x="295" y="375" width="48" height="48" rx="7"/>
+    </g>
+    <g fill="#f0f6fc">
+      <text x="139" y="227">1</text><text x="199" y="227">2</text><text x="259" y="227">3</text><text x="319" y="227">+</text>
+      <text x="139" y="287">4</text><text x="199" y="287">5</text><text x="259" y="287">6</text><text x="319" y="287">−</text>
+      <text x="139" y="347">7</text><text x="199" y="347">8</text><text x="259" y="347">9</text><text x="319" y="347">×</text>
+      <text x="139" y="407">C</text><text x="199" y="407">0</text><text x="259" y="407">=</text><text x="319" y="407">÷</text>
+    </g>
+  </g>
+
+  <rect x="465" y="140" width="270" height="300" rx="22" fill="#0b6f83" stroke="#79c0ff" stroke-width="3"/>
+  <text x="600" y="190" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">Arduino UNO</text>
+  <rect x="520" y="225" width="160" height="105" rx="10" fill="#161b22" stroke="#8b949e" stroke-width="2"/>
+  <text x="600" y="270" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="20">ATmega328P</text>
+  <text x="600" y="300" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="15">Calculator Logic</text>
+
+  <rect x="840" y="175" width="280" height="220" rx="18" fill="#1f6f43" stroke="#7ee787" stroke-width="3"/>
+  <text x="980" y="220" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">LCD 16×2</text>
+  <rect x="890" y="250" width="180" height="70" rx="6" fill="#0a2740" stroke="#58a6ff" stroke-width="2"/>
+  <text x="980" y="293" text-anchor="middle" fill="#79c0ff" font-family="monospace" font-size="19">Result: 42</text>
+  <text x="980" y="355" text-anchor="middle" fill="#c9d1d9" font-family="Arial, sans-serif" font-size="17">I²C · 0x27</text>
+
+  <g fill="none" stroke-linecap="round" stroke-width="4">
+    <path d="M360 205 C410 205 420 205 465 205" stroke="#ff7b72"/>
+    <path d="M360 235 C410 235 420 235 465 235" stroke="#ffa657"/>
+    <path d="M360 265 C410 265 420 265 465 265" stroke="#d2a8ff"/>
+    <path d="M360 295 C410 295 420 295 465 295" stroke="#79c0ff"/>
+    <path d="M360 325 C410 325 420 325 465 325" stroke="#7ee787"/>
+    <path d="M360 355 C410 355 420 355 465 355" stroke="#f2cc60"/>
+    <path d="M360 385 C410 385 420 385 465 385" stroke="#a5d6ff"/>
+    <path d="M360 415 C410 415 420 415 465 415" stroke="#ffa198"/>
+
+    <path d="M735 245 C785 245 800 245 840 245" stroke="#58a6ff"/>
+    <path d="M735 285 C785 285 800 285 840 285" stroke="#d2a8ff"/>
+    <path d="M735 325 C785 325 800 325 840 325" stroke="#7ee787"/>
+    <path d="M735 365 C785 365 800 365 840 365" stroke="#8b949e"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="15" fill="#c9d1d9">
+    <text x="390" y="193">D7</text><text x="390" y="223">D6</text><text x="390" y="253">D5</text><text x="390" y="283">D4</text>
+    <text x="390" y="313">D3</text><text x="390" y="343">D2</text><text x="390" y="373">D1</text><text x="390" y="403">D0</text>
+    <text x="775" y="235">A4 / SDA</text><text x="775" y="275">A5 / SCL</text><text x="790" y="315">5V</text><text x="785" y="355">GND</text>
+  </g>
+
+  <text x="600" y="510" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="16">
+    Logical wiring overview based on the project sketch and Tinkercad circuit.
+  </text>
+</svg>
