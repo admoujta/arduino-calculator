@@ -147,9 +147,7 @@ Then:
 arduino-calculator/
 ├── ArduinoCalculator.ino
 ├── assets/
-│   └── circuit-preview.png
-├── docs/
-│   └── schematic.pdf
+│   └── circuit-diagram.svg
 ├── .gitignore
 ├── LICENSE
 └── README.md
