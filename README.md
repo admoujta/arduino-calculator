@@ -107,10 +107,10 @@ The sketch also supports chained operations: selecting another operator after en
 ## 🖼️ Circuit Preview
 
 <p align="center">
-  <img src="assets/circuit-preview.png" alt="Arduino calculator circuit in Tinkercad" width="900">
+  <img src="assets/circuit-diagram.svg" alt="Arduino calculator wiring diagram" width="900">
 </p>
 
-The electrical schematic is available in [`docs/schematic.pdf`](docs/schematic.pdf).
+The diagram above summarizes the wiring used by the project. The original circuit is available through the Tinkercad link below.
 
 ## 🧪 Tinkercad Simulation
 
